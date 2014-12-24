@@ -205,6 +205,7 @@ use yii\widgets\Breadcrumbs;
                                 'badgeBgClass'=>'bg-red',
                             ],
                             ['label'=>Yii::t('backend', 'Backup Database'), 'url'=>['/backup/default/index'], 'icon'=>'<i class="fa fa-angle-double-right"></i>'],
+                            ['label'=>Yii::t('backend', 'Settings'), 'url'=>['/settings/default/index'], 'icon'=>'<i class="fa fa-angle-double-right"></i>'],
                         ]
                     ]
                 ]
