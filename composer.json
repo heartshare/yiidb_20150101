@@ -34,7 +34,9 @@
         "bower-asset/html5shiv": "~3.0",
         "bower-asset/flot": "~0.8",
         "spanjeta/yii2-backup": "*",
-        "pheme/yii2-settings": "*"
+        "pheme/yii2-settings": "*",
+        "warrence/yii2-kartikgii": "dev-master",
+        "kartik-v/yii2-mpdf": "dev-master"
 	},
 	"require-dev": {
 		"yiisoft/yii2-debug": "*",

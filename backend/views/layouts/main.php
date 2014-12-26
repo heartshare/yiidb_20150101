@@ -205,9 +205,22 @@ use yii\widgets\Breadcrumbs;
                                 'badgeBgClass'=>'bg-red',
                             ],
                             ['label'=>Yii::t('backend', 'Backup Database'), 'url'=>['/backup/default/index'], 'icon'=>'<i class="fa fa-angle-double-right"></i>'],
-                            ['label'=>Yii::t('backend', 'Settings'), 'url'=>['/settings/default/index'], 'icon'=>'<i class="fa fa-angle-double-right"></i>'],
+                            
                         ]
-                    ]
+                    ],
+                    [
+                        'label'=>Yii::t('backend', 'Settings'),
+                        'icon'=>'<i class="glyphicon glyphicon-cog"></i>',
+                        'options'=>['class'=>'treeview'],
+                        'items'=>[
+                            ['label'=>Yii::t('backend', 'Backend Access Control'), 'url'=>['/settings/default/index'], 'icon'=>'<i class="fa fa-angle-double-right"></i>'],
+                            ['label'=>Yii::t('backend', 'Site Information'), 'url'=>['/settings/default/index'], 'icon'=>'<i class="fa fa-angle-double-right"></i>'],
+                            ['label'=>Yii::t('backend', 'Sign Up'), 'url'=>['/settings/default/index'], 'icon'=>'<i class="fa fa-angle-double-right"></i>'],
+                            ['label'=>Yii::t('backend', 'SEO'), 'url'=>['/settings/default/index'], 'icon'=>'<i class="fa fa-angle-double-right"></i>'],
+                            ['label'=>Yii::t('backend', 'Setting Manager'), 'url'=>['/settings/default/index'], 'icon'=>'<i class="fa fa-angle-double-right"></i>'],
+    
+                        ],
+                    ],
                 ]
             ]) ?>
         </section>
